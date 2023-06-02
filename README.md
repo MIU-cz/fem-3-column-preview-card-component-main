@@ -75,6 +75,6 @@ Users should be able to:
 - Frontend Mentor - [@MIU-cz](https://www.frontendmentor.io/profile/MIU-cz)
 - FaceBook - [@mehaligor.cz](https://www.facebook.com/mehaligor.cz/)
 
-<div style="float:right;margin:0 10px 0 0">
+<autor style="float:right;margin:0 10px 0 0">
     <img src="./images/autor.png" alt="Autor" width="100px">
-</div>
+</autor>
