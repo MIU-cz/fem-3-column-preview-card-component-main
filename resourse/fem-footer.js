@@ -3,7 +3,7 @@
 let footer =
     `
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://sites.google.com/view/zivotopis-miu/kdo-jsem" target="_blank">MIU</a>
+    Coded by MIU :: <a href="https://sites.google.com/view/zivotopis-miu/kdo-jsem" target="_blank">Zivotopis</a>
     :: <a href="https://mehal.my.canva.site" target="_blank">business card</a>
 `;
 

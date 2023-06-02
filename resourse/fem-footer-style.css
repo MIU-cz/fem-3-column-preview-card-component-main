@@ -1,4 +1,8 @@
 /* ---footer--- */
+:root {
+	--my-link-color: #45818e;
+}
+
 .attribution {
 	position: fixed;
 	bottom: 0;
@@ -9,5 +13,5 @@
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--my-link-color);
 }

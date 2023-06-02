@@ -1,0 +1,191 @@
+// # Front-end Style Guide
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import url("../resourse/fem-footer-style.css");
+
+// ## Layout
+// The designs were created to the following widths:
+// - Mobile: 375px
+// - Desktop: 1440px
+// ## Colors
+// ### Primary
+$Bright-orange: hsl(31, 77%, 52%);
+$Dark-cyan: hsl(184, 100%, 22%);
+$Very-dark-cyan: hsl(179, 100%, 13%);
+
+// ### Neutral
+// (paragraphs)
+$Transparent-white: hsla(0, 0%, 100%, 0.75);
+// (background, headings, buttons)
+$Very-light-gray: hsl(0, 0%, 95%);
+
+// ## Typography
+$body-font-size: 15px;
+$title-font-size: 34px;
+$w400: 400;
+$w700: 700;
+$font-BSD: "Big Shoulders Display";
+$font-LD: "Lexend Deca";
+
+// ## maket
+$card-width: 920px;
+$card-height: 500px;
+$item-width: $card-width/3;
+$width100: 100%;
+$margin: 50px;
+
+// ### main styles
+body {
+	background-color: $Very-light-gray;
+}
+
+.main {
+	width: 100%;
+	height: 100vh;
+
+	@media (max-width: 768px) {
+		height: auto;
+		margin: $margin 0;
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+.justify {
+	justify-content: center;
+	align-items: center;
+}
+
+// .valign {
+//     align-items: ;
+// }
+
+// ### content styles
+.conteiner {
+	width: $card-width;
+	height: $card-height;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0 20px;
+
+	@media (max-width: 992px) {
+		width: $width100;
+		height: auto;
+	}
+
+	@media (max-width: 768px) {
+		flex-wrap: wrap;
+		max-width: 576px;
+	}
+}
+
+.item {
+	width: $item-width;
+	padding: $margin;
+	flex-wrap: wrap;
+	align-content: space-between;
+
+	@media (max-width: 992px) {
+		width: $width100 / 3;
+	}
+
+	@media (max-width: 768px) {
+		width: $width100;
+	}
+}
+
+.item-sedans {
+	background-color: $Bright-orange;
+}
+
+.item-suv {
+	background-color: $Dark-cyan;
+}
+
+.item-luxury {
+	background-color: $Very-dark-cyan;
+}
+
+.figure {
+	margin-bottom: $margin - 5px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-family: $font-BSD;
+	font-size: $title-font-size;
+	font-weight: $w700;
+	color: $Very-light-gray;
+	margin-bottom: $margin - 5px;
+}
+
+.description {
+	line-height: 1.5em;
+	font-family: $font-LD;
+	font-size: $body-font-size;
+	font-weight: $w400;
+	color: $Transparent-white;
+	margin-bottom: $margin;
+}
+
+// ### buttons
+.button {
+	width: 100%;
+	font-family: $font-LD;
+	// margin-bottom: $margin;
+}
+
+.btn {
+	width: 145px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: $body-font-size;
+	font-weight: $w400;
+}
+
+@mixin btn {
+	border: solid 2px $Very-light-gray;
+	background-color: $Very-light-gray;
+}
+
+@mixin btn-hover {
+	color: $Very-light-gray;
+}
+
+.btn-sedan {
+	color: $Bright-orange;
+	@include btn();
+
+	&:hover {
+		@include btn-hover();
+		background-color: $Bright-orange;
+	}
+}
+
+.btn-suv {
+	color: $Dark-cyan;
+	@include btn();
+
+	&:hover {
+		@include btn-hover();
+		background-color: $Dark-cyan;
+	}
+}
+
+.btn-luxury {
+	color: $Very-dark-cyan;
+	@include btn();
+
+	&:hover {
+		@include btn-hover();
+		background-color: $Very-dark-cyan;
+	}
+}
+
+// ### Footer
+.attribution {
+	@media (max-width: 768px) {
+		position: relative;
+	}
+}
