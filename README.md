@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://your-solution-url.com)
-- Live Site URL: [preview](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/MIU-cz/fem-3-column-preview-card-component-main)
+- Live Site URL: [preview](https://miu-cz.github.io/fem-3-column-preview-card-component-main)
 
 ## My process
 
