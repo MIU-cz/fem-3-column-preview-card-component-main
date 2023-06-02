@@ -76,5 +76,5 @@ Users should be able to:
 - FaceBook - [@mehaligor.cz](https://www.facebook.com/mehaligor.cz/)
 
 <autor style="float:right;margin:0 10px 0 0">
-    <img src="./images/autor.png" alt="Autor" width="100px">
+    <img src="./resourse/autor.png" alt="Autor" width="100px">
 </autor>
